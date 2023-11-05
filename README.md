@@ -200,7 +200,7 @@ We preprocess the data by encoding categorical features using Label Encoding. Th
 We split the data into training and validation sets and standardize the numerical features. Then, we train various machine learning models, including Linear Regression, XGBoost, RandomForest, and AdaBoost. We evaluate the models based on the mean absolute error for both training and validation data. RandomForestRegressor yields the best results with the lowest error.
 
 ## Conclusion
-
+```python
 LinearRegression() : 
 Training Error :  0.6866406322422778
 Validation Error :  0.7903774704017295
@@ -217,7 +217,7 @@ Validation Error :  0.7220791666666665
 AdaBoostRegressor() : 
 Training Error :  0.6609079068130044
 Validation Error :  0.8455811030375475
-
+```
 Out of all the models RandomForestModel is giving the least value for the mean absolute error this means predictions made by this model are close to the real values as compared to the other model. 
 In conclusion, even with a small dataset, we were able to derive meaningful insights and create a predictive model for tip estimation. A larger dataset could provide more detailed patterns in the relationships between independent features and tip amounts.
 
