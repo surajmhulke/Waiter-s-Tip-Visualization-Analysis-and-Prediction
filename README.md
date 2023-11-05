@@ -201,11 +201,27 @@ We split the data into training and validation sets and standardize the numerica
 
 ## Conclusion
 
+LinearRegression() : 
+Training Error :  0.6866406322422778
+Validation Error :  0.7903774704017295
+
+[10:19:57] WARNING: /workspace/src/objective/regression_obj.cu:152: reg:linear is now deprecated in favor of reg:squarederror.
+XGBRegressor() : 
+Training Error :  0.4352481277867367
+Validation Error :  0.7437935236096381
+
+RandomForestRegressor() : 
+Training Error :  0.276898947368421
+Validation Error :  0.7220791666666665
+
+AdaBoostRegressor() : 
+Training Error :  0.6609079068130044
+Validation Error :  0.8455811030375475
+
+Out of all the models RandomForestModel is giving the least value for the mean absolute error this means predictions made by this model are close to the real values as compared to the other model. 
 In conclusion, even with a small dataset, we were able to derive meaningful insights and create a predictive model for tip estimation. A larger dataset could provide more detailed patterns in the relationships between independent features and tip amounts.
 
 This project showcases how machine learning can be used to predict tips, which can be valuable in the restaurant industry for understanding customer behavior and improving service.
 
-Feel free to explore and expand upon this project further to enhance its predictive accuracy.
-```
-
-You can use this README.md as part of your project documentation.
+ 
+ 
