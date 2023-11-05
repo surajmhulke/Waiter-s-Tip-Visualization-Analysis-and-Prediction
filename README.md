@@ -1,8 +1,5 @@
 # Waiter-s-Tip-Visualization-Analysis-and-Prediction
 
- 
-# Waiter’s Tip Prediction using Machine Learning
-
 ## Table of Contents
 - [Introduction](#introduction)
 - [Importing Libraries](#importing-libraries)
